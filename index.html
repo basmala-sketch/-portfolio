@@ -8,24 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4fEdFB5c2Aj/6lEkATcG3ZpyMl4d9T+ZzEujfkF5KYCVzzr14NRb1QY0i2cJ2r4yxgozw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="profile.jpg" alt="Basmala" class="profile-img">
-            <h1>Hi, I'm Basmala</h1>
-            <h2>Quality Engineering | Food Technology</h2>
-            <p class="email">📧 <a href="mailto:basmala.mohamed.abd.al.hey@gmail.com">basmala.mohamed.abd.al.hey@gmail.com</a></p>
+            <div class="hero">
+                <img src="profile.jpg" alt="Basmala" class="profile-img">
+                <h1>Hi, I'm <span class="highlight">Basmala</span></h1>
+                <h2>Quality Engineering | Food Technology</h2>
+                <p class="email">📧 <a href="mailto:basmala.mohamed.abd.al.hey@gmail.com">basmala.mohamed.abd.al.hey@gmail.com</a></p>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#social">Social Media</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="profile">
+        <section id="profile" class="card">
             <h2>Profile</h2>
             <p>Food Technology student with experience in quality assurance, lab testing, and food manufacturing. Passionate about food safety, clinical and genetic nutrition, and improving production quality. Skilled in problem-solving, attention to detail, and leadership.</p>
         </section>
 
-        <section class="experience">
+        <section id="experience" class="card">
             <h2>Work Experience</h2>
             <div class="item">
                 <h3>Abu Adil Confectionery Factory</h3>
@@ -36,10 +50,9 @@
                     <li>Maintained records and provided weekly reports on lab test results and recommendations for improvement.</li>
                 </ul>
             </div>
-            <!-- Add more experience items here -->
         </section>
 
-        <section class="skills">
+        <section id="skills" class="card">
             <h2>Skills</h2>
             <ul>
                 <li>Technical: Microsoft Office, ICDL, SPSS</li>
@@ -48,20 +61,20 @@
             </ul>
         </section>
 
-        <section class="education">
+        <section id="education" class="card">
             <h2>Education</h2>
             <h3>Samanoud Technological University</h3>
             <p>Bachelor of Science in Food Technology (2022 – 2026)</p>
             <p>Currently in the third year. Completed a cheese press design project in the second year.</p>
         </section>
 
-        <section class="extracurricular">
+        <section id="activities" class="card">
             <h2>Extracurricular Activities</h2>
             <p><strong>Hayah Karima Association (2024 – Present):</strong> Assisted in outreach programs and community engagement.</p>
             <p><strong>Resala Association (2019 – 2021):</strong> Volunteered in various community development activities.</p>
         </section>
 
-        <section class="hobbies">
+        <section id="hobbies" class="card">
             <h2>Hobbies & Interests</h2>
             <ul>
                 <li>✍ Journaling</li>
@@ -71,7 +84,7 @@
             </ul>
         </section>
 
-        <section class="social">
+        <section id="social" class="card">
             <h2>Social Media</h2>
             <ul>
                 <li><a href="https://www.facebook.com/profile.php?id=100086138997687" target="_blank">Facebook</a></li>
@@ -83,5 +96,7 @@
     <footer>
         <p>© 2025 Basmala's Profile</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
